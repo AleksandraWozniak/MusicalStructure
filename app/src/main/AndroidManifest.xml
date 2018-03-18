@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ola.musicalstructure">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FilmMusic"
+            android:label="@string/category_film"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".RockMusic"
+            android:label="@string/category_rock"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PopMusic"
+            android:label="@string/category_pop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HipHopMusic"
+            android:label="@string/category_hiphop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NowIsPlaying"
+            android:label="@string/title_activity_now_is_playing"
+            android:parentActivityName=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

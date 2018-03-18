@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.ola.musicalstructure.MainActivity">
+
+    <Button
+        android:id="@+id/pop"
+        style="@style/CategoryStyle"
+        android:background="@color/category_pop"
+        android:text="@string/category_pop" />
+
+    <Button
+        android:id="@+id/rock"
+        style="@style/CategoryStyle"
+        android:background="@color/category_rock"
+        android:text="@string/category_rock" />
+
+    <Button
+        android:id="@+id/film"
+        style="@style/CategoryStyle"
+        android:background="@color/category_film"
+        android:text="@string/category_film" />
+
+    <Button
+        android:id="@+id/hiphop"
+        style="@style/CategoryStyle"
+        android:background="@color/category_hiphop"
+        android:text="@string/category_hiphop" />
+
+</LinearLayout>

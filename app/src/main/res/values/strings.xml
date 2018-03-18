@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+    <!-- Category name for the music categories [CHAR LIMIT=20] -->
+    <string name="category_pop">Pop Music</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_hiphop">Hip Hop Music</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_film">Film Music</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_rock">Rock Music</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_now_is_playing">Now Is Playing</string>
+
+    <string name="home">BACK</string>
+
+</resources>

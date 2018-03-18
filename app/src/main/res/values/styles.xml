@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+
+    <!-- Style for music categories in actitivy_main.xml-->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for layouts in "activity_now_is_playing.xml" -->
+    <style name="LayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <!-- Style for Buttons in "activity_now_is_playing.xml"  -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">@color/primary_color1</item>
+    </style>
+
+    <!-- Style of an ImageView in "activity_now_is_playing.xml"  -->
+    <style name="ImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- Style of an SeekBar in "activity_now_is_playing.xml"  -->
+    <style name="SeekBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Style for TextViews in "list_item.xml"  -->
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <!-- Style for ImageViews in "list_item.xml"  -->
+    <style name="ImageView1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:contentDescription">null</item>
+
+    </style>
+
+</resources>
